@@ -31,7 +31,7 @@ def hello_world():
 
 @app.route("/add", methods=["GET"])
 def add_villain():
-  return return_template("addvillain.html")
+  return render_template("addvillain.html")
 
 
 @app.route("/addVillain", methods=["POST"])
